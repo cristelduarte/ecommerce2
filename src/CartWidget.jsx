@@ -1,10 +1,11 @@
-
 export function CartWidget() {
-
   return (
-    <div>
+    <button className="btn btn-outline-light position-relative">
       🛒
-    </div>
+      <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        0
+      </span>
+    </button>
   )
 }
 
